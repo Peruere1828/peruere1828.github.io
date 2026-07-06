@@ -9,327 +9,167 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar" id="navbar">
-        <div class="container nav-container">
-            <span class="nav-brand">Peruere1828</span>
-            <ul class="nav-links">
-                <li><a href="#about">关于</a></li>
-                <li><a href="#projects">项目</a></li>
-                <li><a href="#opensource">开源</a></li>
-                <li><a href="#achievements">荣誉</a></li>
-                <li><a href="#learning">学习</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <!-- Hero -->
-    <header class="hero" id="about">
-        <div class="container hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Peruere1828</h1>
-                <p class="hero-subtitle">南京大学 · 信息与计算科学（强基计划）</p>
-                <p class="hero-bio">
-                    对编译技术、高性能计算与系统软件充满热情。
-                    专注于 MLIR/LLVM 编译器框架与 C++ 底层开发，
-                    同时积极探索 AI 与科学计算的交叉领域。
-                </p>
-                <div class="hero-links">
-                    <a href="https://github.com/Peruere1828" class="btn btn-primary" target="_blank" rel="noopener">
-                        <svg class="icon" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-                        GitHub
-                    </a>
-                    <a href="mailto:peruere1828@gmail.com" class="btn btn-secondary">
-                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                        联系我
-                    </a>
-                </div>
+<main class="page">
+    <!-- Left: Photo + Name + Contact -->
+    <aside class="sidebar">
+        <img src="assets/peruere.jpg" alt="Peruere1828" class="avatar">
+        <h1 class="name">Peruere1828</h1>
+        <p class="affiliation">南京大学 · 信息与计算科学（强基计划）</p>
+
+        <div class="contact-links">
+            <a href="https://github.com/Peruere1828" class="contact-btn" target="_blank" rel="noopener">
+                <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                GitHub
+            </a>
+            <a href="mailto:fmyh1828@gmail.com" class="contact-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                fmyh1828@gmail.com
+            </a>
+        </div>
+    </aside>
+
+    <!-- Right: Content -->
+    <div class="content">
+
+        <!-- About -->
+        <section class="block" id="about">
+            <h2 class="block-title">关于</h2>
+            <p>
+                对编译技术、高性能计算与系统软件充满热情。专注于 MLIR/LLVM 编译器框架与 C++ 底层开发，同时积极探索 AI 与科学计算的交叉领域。
+            </p>
+        </section>
+
+        <!-- Education -->
+        <section class="block" id="education">
+            <h2 class="block-title">教育背景</h2>
+            <div class="edu-row">
+                <span class="edu-school">南京大学</span>
+                <span class="edu-major">信息与计算科学（强基计划）</span>
+                <span class="edu-year">2024 - 至今</span>
             </div>
-            <div class="hero-visual">
-                <div class="code-block">
-                    <pre><span class="code-comment">// system_software.cpp</span>
-<span class="code-keyword">struct</span> <span class="code-type">Engineer</span> {
-    std::string name  = <span class="code-string">"Peruere1828"</span>;
-    std::string field = <span class="code-string">"Compilers &amp; HPC"</span>;
-    <span class="code-keyword">auto</span> build() <span class="code-keyword">const</span> {
-        <span class="code-keyword">return</span> <span class="code-string">"Something awesome"</span>;
-    }
-};</pre>
-                </div>
+            <div class="gpa-row">
+                <span>全部学分绩 <strong>4.44 / 5.0</strong></span>
+                <span class="gpa-sep">|</span>
+                <span>学位课学分绩 <strong>4.40 / 5.0</strong></span>
             </div>
-        </div>
-        <div class="scroll-indicator">
-            <span>向下滚动</span>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
-        </div>
-    </header>
+        </section>
 
-    <!-- Education -->
-    <section class="section" id="education">
-        <div class="container">
-            <h2 class="section-title">教育背景</h2>
-            <div class="edu-card">
-                <div class="edu-header">
-                    <h3>南京大学</h3>
-                    <span class="edu-badge">2024 - 至今</span>
+        <!-- Projects -->
+        <section class="block" id="projects">
+            <h2 class="block-title">精选项目</h2>
+
+            <div class="project-item">
+                <div class="project-head">
+                    <h3>基于 MLIR 的 BF 语言 JIT 编译器</h3>
+                    <span class="project-tags"><span class="tag">C++</span><span class="tag">MLIR</span><span class="tag">LLVM</span></span>
                 </div>
-                <p class="edu-major">信息与计算科学（强基计划）</p>
-                <div class="edu-stats">
-                    <div class="stat">
-                        <span class="stat-value">4.44 / 5.0</span>
-                        <span class="stat-label">全部学分绩</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-value">4.40 / 5.0</span>
-                        <span class="stat-label">学位课学分绩</span>
-                    </div>
-                </div>
+                <p>自研 BF 语言 MLIR 编译器与 JIT 执行框架，打通 BF 自定义 Dialect → SCF 控制流 Dialect → LLVM Dialect lowering 全链路。</p>
+                <a href="https://github.com/Peruere1828/mlir-bf-jit" class="project-link" target="_blank" rel="noopener">GitHub →</a>
             </div>
-        </div>
-    </section>
 
-    <!-- Projects -->
-    <section class="section section-alt" id="projects">
-        <div class="container">
-            <h2 class="section-title">精选项目</h2>
-            <div class="projects-grid">
-
-                <article class="project-card">
-                    <div class="project-tags">
-                        <span class="tag">C++</span>
-                        <span class="tag">MLIR</span>
-                        <span class="tag">LLVM</span>
-                    </div>
-                    <h3 class="project-title">基于 MLIR 的 BF 语言 JIT 编译器</h3>
-                    <p class="project-desc">
-                        自研 BF 语言 MLIR 编译器与 JIT 执行框架。已完整打通 BF 自定义 Dialect →
-                        SCF 控制流 Dialect → LLVM Dialect lowering 全链路，实现代码 lowering 与 JIT 即时运行。
-                    </p>
-                    <a href="https://github.com/Peruere1828/mlir-bf-jit" class="project-link" target="_blank" rel="noopener">查看项目 →</a>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-tags">
-                        <span class="tag">C++</span>
-                        <span class="tag">Fortran</span>
-                        <span class="tag">MPI</span>
-                        <span class="tag">OpenMP</span>
-                    </div>
-                    <h3 class="project-title">AMSS-NCKU 数值相对论程序性能优化</h3>
-                    <p class="project-desc">
-                        针对数值相对论计算程序做大规模并行性能调优。采用通信与计算重叠、Cache 缓存局部性优化、
-                        分支预测命中优化、数值算法重构改进等手段。基于 64 核集群并行实测，较原始基线版本整体提速 <strong>5.22 倍</strong>。
-                    </p>
-                    <a href="https://github.com/Peruere1828/AMSS-NCKU-optimization" class="project-link" target="_blank" rel="noopener">查看项目 →</a>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-tags">
-                        <span class="tag">C++</span>
-                    </div>
-                    <h3 class="project-title">C++ 标准库组件复现</h3>
-                    <p class="project-desc">
-                        按 cpp_reference 标准重新实现 <code>vector</code>、<code>set</code>、<code>unique_ptr</code>
-                        等常用标准库组件，深入理解 C++ 内存管理与泛型编程。
-                    </p>
-                    <a href="https://github.com/Peruere1828/CppTemplateExercise" class="project-link" target="_blank" rel="noopener">查看项目 →</a>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-tags">
-                        <span class="tag">Python</span>
-                        <span class="tag">MLIR</span>
-                    </div>
-                    <h3 class="project-title">MLIR 编译管线自动搜索器</h3>
-                    <p class="project-desc">
-                        基于启发式算法实现 MLIR Pass Pipeline 自动组合与搜索。自动筛选并生成较官方默认
-                        更精简高效的编译流水线，减少冗余 Pass 调用，简化编译链路。
-                    </p>
-                    <a href="https://github.com/Peruere1828/mlir-pipeline-generator" class="project-link" target="_blank" rel="noopener">查看项目 →</a>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-tags">
-                        <span class="tag">C++</span>
-                    </div>
-                    <h3 class="project-title">TCMalloc 复现</h3>
-                    <p class="project-desc">
-                        按 gperftools 文档介绍复现 TCMalloc 内存分配器，深入理解多线程内存管理、
-                        线程缓存与中央空闲链表等核心机制。<em>仍在迭代完善中。</em>
-                    </p>
-                    <span class="project-link project-link-disabled">尚未公开</span>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-tags">
-                        <span class="tag">Cmm</span>
-                        <span class="tag">x86</span>
-                        <span class="tag">Qt</span>
-                        <span class="tag">Web</span>
-                    </div>
-                    <h3 class="project-title">课程项目合集</h3>
-                    <p class="project-desc">
-                        Cmm 编译器、x86 模拟器、Qt 实现的画图软件、网页监控和信息整合系统等
-                        多个课程大作业与课程项目。
-                    </p>
-                </article>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Open Source -->
-    <section class="section" id="opensource">
-        <div class="container">
-            <h2 class="section-title">开源贡献</h2>
-            <div class="oss-list">
-                <div class="oss-item">
-                    <div class="oss-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-                    </div>
-                    <div class="oss-content">
-                        <h3>Apache TVM</h3>
-                        <p>参与社区开源贡献，完善 TFLite 前端算子映射逻辑，提交前端适配相关 PR 并被官方合并。</p>
-                    </div>
+            <div class="project-item">
+                <div class="project-head">
+                    <h3>AMSS-NCKU 数值相对论程序性能优化</h3>
+                    <span class="project-tags"><span class="tag">C++</span><span class="tag">MPI</span><span class="tag">OpenMP</span></span>
                 </div>
-                <div class="oss-item">
-                    <div class="oss-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-                    </div>
-                    <div class="oss-content">
-                        <h3>LLVM Project</h3>
-                        <p>参与 llvm-project 社区讨论，帮助社区复现及定位 bug，深入编译器基础设施的实践与理解。</p>
-                    </div>
-                </div>
+                <p>通信与计算重叠、Cache 优化、分支预测优化、数值算法重构。64 核集群实测较基线 <strong>提速 5.22 倍</strong>。</p>
+                <a href="https://github.com/Peruere1828/AMSS-NCKU-optimization" class="project-link" target="_blank" rel="noopener">GitHub →</a>
             </div>
-        </div>
-    </section>
 
-    <!-- Achievements -->
-    <section class="section section-alt" id="achievements">
-        <div class="container">
-            <h2 class="section-title">荣誉与奖项</h2>
+            <div class="project-item">
+                <div class="project-head">
+                    <h3>C++ 标准库组件复现</h3>
+                    <span class="project-tags"><span class="tag">C++</span></span>
+                </div>
+                <p>按 cpp_reference 标准重新实现 <code>vector</code>、<code>set</code>、<code>unique_ptr</code> 等标准库组件。</p>
+                <a href="https://github.com/Peruere1828/CppTemplateExercise" class="project-link" target="_blank" rel="noopener">GitHub →</a>
+            </div>
 
-            <div class="achieve-group">
-                <h3 class="group-title">竞赛奖项</h3>
+            <div class="project-item">
+                <div class="project-head">
+                    <h3>MLIR 编译管线自动搜索器</h3>
+                    <span class="project-tags"><span class="tag">Python</span><span class="tag">MLIR</span></span>
+                </div>
+                <p>基于启发式算法实现 MLIR Pass Pipeline 自动组合与搜索，生成较官方默认更精简高效的编译流水线。</p>
+                <a href="https://github.com/Peruere1828/mlir-pipeline-generator" class="project-link" target="_blank" rel="noopener">GitHub →</a>
+            </div>
+
+            <div class="project-item">
+                <div class="project-head">
+                    <h3>TCMalloc 复现</h3>
+                    <span class="project-tags"><span class="tag">C++</span></span>
+                </div>
+                <p>按 gperftools 文档复现 TCMalloc 内存分配器。<em>仍在迭代完善中，尚未公开。</em></p>
+            </div>
+        </section>
+
+        <!-- Open Source -->
+        <section class="block" id="opensource">
+            <h2 class="block-title">开源贡献</h2>
+            <div class="oss-row">
+                <span><strong>Apache TVM</strong> — 完善 TFLite 前端算子映射逻辑，提交 PR 被官方合并</span>
+                <span><strong>LLVM Project</strong> — 参与社区讨论，帮助复现及定位 bug</span>
+            </div>
+        </section>
+
+        <!-- Achievements -->
+        <section class="block" id="achievements">
+            <h2 class="block-title">荣誉与奖项</h2>
+            <div class="achieve-section">
+                <h4>竞赛</h4>
                 <ul class="achieve-list">
-                    <li><span class="achieve-year">2022</span>CCF 计算机软件能力认证 CSP-S 级别一等奖</li>
-                    <li><span class="achieve-year">2022</span>全国青少年信息学奥林匹克联赛 (NOIP) 一等奖</li>
-                    <li><span class="achieve-year">2024</span>全国大学生数学竞赛（数学 A 类）江苏赛区一等奖</li>
+                    <li><span class="achieve-year">2022</span>CCF CSP-S 一等奖</li>
+                    <li><span class="achieve-year">2022</span>NOIP 一等奖</li>
+                    <li><span class="achieve-year">2024</span>全国大学生数学竞赛（数学A类）江苏赛区一等奖</li>
                     <li><span class="achieve-year">2025</span>南京大学程序设计大赛提高组铜奖</li>
                     <li><span class="achieve-year">2025</span>南京大学 EL 程序设计大赛算法组三等奖</li>
-                    <li><span class="achieve-year">2026</span>世界大学生超级计算机竞赛 ASC26 二等奖（第五名）</li>
+                    <li><span class="achieve-year">2026</span>ASC26 世界大学生超算竞赛二等奖（第五名）</li>
                     <li><span class="achieve-year">2026</span>华为 CANN 算子挑战赛决赛三等奖</li>
                 </ul>
             </div>
-
-            <div class="achieve-group">
-                <h3 class="group-title">奖学金</h3>
+            <div class="achieve-section">
+                <h4>奖学金</h4>
                 <ul class="achieve-list">
                     <li><span class="achieve-year">2025</span>人民奖学金二等奖</li>
                     <li><span class="achieve-year">2025</span>南京大学本科生基础学科专项奖学金优秀奖</li>
                 </ul>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills -->
-    <section class="section" id="skills">
-        <div class="container">
-            <h2 class="section-title">技能</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>编程语言</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Modern C++ (C++11/17)</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Fortran</span>
-                    </div>
-                    <p class="skill-note">模板、内存管理、数据分析、FastAPI</p>
-                </div>
-                <div class="skill-category">
-                    <h3>工具与框架</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">MLIR / LLVM</span>
-                        <span class="skill-tag">CUDA</span>
-                        <span class="skill-tag">MPI / OpenMP</span>
-                        <span class="skill-tag">GDB</span>
-                        <span class="skill-tag">Perf / VTune</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>开发习惯</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Claude Code</span>
-                    </div>
-                    <p class="skill-note">熟练使用 AI 工具辅助日常开发</p>
-                </div>
+        <!-- Skills -->
+        <section class="block" id="skills">
+            <h2 class="block-title">技能</h2>
+            <div class="skills-row">
+                <div><strong>语言:</strong> Modern C++ (C++11/17), Python, Fortran</div>
+                <div><strong>工具:</strong> MLIR/LLVM, CUDA, MPI/OpenMP, GDB, Perf/VTune, Claude Code</div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Currently Learning -->
-    <section class="section section-alt" id="learning">
-        <div class="container">
-            <h2 class="section-title">正在探索</h2>
-            <div class="learning-card">
-                <div class="learning-header">
-                    <span class="learning-emoji">🧠</span>
-                    <h3>nanoGPT</h3>
-                </div>
-                <p>
-                    虽然尚未正式涉足 AI 项目，但我正在学习 <strong>nanoGPT</strong>——Andrej Karpathy
-                    的极简 GPT 实现。通过阅读源码与动手实验，逐步理解 Transformer 架构、
-                    自注意力机制与语言模型的训练推理流程，为未来在 AI + 编译优化
-                    方向的探索打下基础。
-                </p>
-                <div class="learning-tags">
-                    <span class="tag">Transformer</span>
-                    <span class="tag">Self-Attention</span>
-                    <span class="tag">PyTorch</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-container">
-            <div class="footer-links">
-                <a href="https://github.com/Peruere1828" target="_blank" rel="noopener">GitHub</a>
-                <a href="mailto:peruere1828@gmail.com">Email</a>
-            </div>
-            <p class="footer-text">
-                &copy; 2024 - <span id="year"></span> Peruere1828. Built with
-                <span class="heart">&hearts;</span> and lots of coffee.
+        <!-- Learning -->
+        <section class="block" id="learning">
+            <h2 class="block-title">正在探索</h2>
+            <p>
+                正在学习 <strong>nanoGPT</strong>（Andrej Karpathy 的极简 GPT 实现），
+                逐步理解 Transformer 架构、自注意力机制与语言模型的训练推理流程，
+                为 AI + 编译优化方向的探索打基础。
             </p>
-        </div>
-    </footer>
+            <div class="learning-tags">
+                <span class="tag">Transformer</span>
+                <span class="tag">Self-Attention</span>
+                <span class="tag">PyTorch</span>
+            </div>
+        </section>
 
-    <script>
-        // Dynamic year in footer
-        document.getElementById('year').textContent = new Date().getFullYear();
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 - <span id="year"></span> Peruere1828</p>
+        </footer>
+    </div>
+</main>
 
-        // Smooth scroll for nav links
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', e => {
-                e.preventDefault();
-                const target = document.querySelector(link.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth' });
-                }
-            });
-        });
-
-        // Navbar scroll effect
-        window.addEventListener('scroll', () => {
-            const navbar = document.getElementById('navbar');
-            if (window.scrollY > 60) {
-                navbar.classList.add('navbar-scrolled');
-            } else {
-                navbar.classList.remove('navbar-scrolled');
-            }
-        });
-    </script>
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
